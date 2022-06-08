@@ -1,0 +1,25 @@
+.pubHeader,
+.publicationTable,
+.publications,.publicationBook {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+  border: 0.1px solid grey;
+  border-collapse: collapse;
+}
+
+@media (max-width:960px){
+  .pubHeader,
+.publicationTable,
+.publications,.publicationBook {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+}

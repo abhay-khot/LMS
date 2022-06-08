@@ -1,0 +1,122 @@
+.courseHeader h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+ .coursesContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.coursesContainer .coursesCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 340px;
+  height: 440px;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+ .coursesContainer .coursesCard .coursesBox .coursesContent a {
+  background: #2196f3;
+}
+
+.coursesContainer .coursesCard .coursesBox {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.coursesContainer .coursesCard .coursesBox:hover {
+  transform: translateY(-50px);
+}
+
+.coursesContainer .coursesCard .coursesBox:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.coursesContainer .coursesCard .coursesBox .coursesContent {
+  padding: 20px;
+  text-align: center;
+}
+
+.coursesContainer .coursesCard .coursesBox .coursesContent h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 68em;
+}
+
+.coursesContainer .coursesCard .coursesBox .coursesContent h3 {
+  font-size: 2.25rem;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.coursesContainer .coursesCard .coursesBox .coursesContent p {
+  font-size: 1rem;
+  font-weight: 300;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.coursesContainer .coursesCard .coursesBox .coursesContent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.coursesContainer .coursesCard .box .content a:hover {
+  background: #fff;
+}
+
+.coursesCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 540px){
+  .courseHeader h1{
+    font-size: 2rem;
+  }
+  .coursesContainer .coursesCard {
+    height: 200px;
+  }
+}
+
+@media (max-width: 800px){
+  .courseHeader h1{
+    font-size: 2rem;
+  }
+  .coursesContainer .coursesCard {
+    height: 200px;
+  }
+}

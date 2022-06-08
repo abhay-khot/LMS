@@ -1,0 +1,33 @@
+.parmoon{
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.parHead{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #3266a8;
+}
+
+.parLink {
+    color:  #3266a8;
+    font-weight: 400;
+}
+
+@media (max-width:940px){
+    .parmoon{
+        font-size: 1.25rem;
+    }
+    .parHead{
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:  #3266a8;
+    }
+}

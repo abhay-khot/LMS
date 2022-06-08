@@ -1,0 +1,99 @@
+.courseHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.researchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+.researchContainer .researchCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 300px;
+  height: 440px;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+  max-width: 1200px;
+}
+
+.researchContainer .researchCard .researchBox .researchContent a {
+  background: #2196f3;
+}
+
+.researchContainer .researchCard .researchBox {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.researchContainer .researchCard .researchBox:hover {
+  transform: translateY(-50px);
+}
+
+.researchContainer .researchCard .researchBox:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.researchContainer .researchCard .researchBox .researchContent {
+  padding: 20px;
+  text-align: center;
+}
+
+.researchContainer .researchCard .researchBox .researchContent h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+}
+
+.researchContainer .researchCard .researchBox .researchContent h3 {
+  font-size: 2.25rem;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.researchContainer .researchCard .researchBox .researchContent p {
+  font-size: 1rem;
+  font-weight: 300;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.researchContainer .researchCard .researchBox .researchContent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.researchContainer .researchCard .box .content a:hover {
+  background: #fff;
+}

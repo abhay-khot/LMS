@@ -1,0 +1,73 @@
+.mainLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLogo h5 {
+  font-size: 3rem;
+  color: #3266a8;
+}
+
+.mainLogo h6 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 300;
+}
+
+@media  (max-width: 998px) {
+    .mainLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .mainLogo h5 {
+        font-size: 2rem;
+        color: #3266a8;
+      }
+      
+      .mainLogo h6 {
+        font-size: 1.25rem;
+        color: black;
+        font-weight: 300;
+      }
+}
+
+@media (max-width: 768px) {
+    .mainLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .mainLogo h5 {
+        font-size: 2rem;
+        color: #3266a8;
+      }
+      
+      .mainLogo h6 {
+        font-size: 1rem;
+        color: black;
+        font-weight: 300;
+      }
+}
+
+@media (max-width: 562px) {
+    .mainLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .mainLogo h5 {
+        font-size: 1.5rem;
+        color: #3266a8;
+      }
+      
+      .mainLogo h6 {
+        font-size: 1rem;
+        color: black;
+        font-weight: 300;
+      }
+}
